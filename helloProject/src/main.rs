@@ -17,4 +17,18 @@ fn main() {
     let i: i64 = 9223372036854775807;
     println!("Max value of i32: {}", e);
     println!("Max value of i64: {}", i);
+
+    // Floats [Floating point types/ fractional integers]
+    // f32, f64
+    let pi: f64 = 3.14;  
+    println!("Value of pi is: {}", pi);
+
+    // Boolean Values true, false
+    let isSnowing: bool = true;
+    println!("Is it snowing: {}", isSnowing);
+
+    // Character type - single character e.g a, z
+    // Note: string is double quote, char is single quote
+    let letter: char = 'a';
+    println!("First letter of the alphabet is: {}", letter)
 }
