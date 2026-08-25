@@ -1,7 +1,7 @@
 // Compound Data Types
 // arrays, tuples, slices and strigs(slice strings)
 // Arrays
-fn cmpd_data_types() {
+fn main() {
     // Arrays - homogenous collection of elements of fixed size e.g only int arr, only str arr
     let numbers: [i32; 5] = [1,2,3,4,5];
     println!("Number Array: {:?}", numbers);

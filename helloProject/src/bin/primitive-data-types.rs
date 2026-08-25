@@ -1,7 +1,15 @@
-fn pdt() {
+fn main() {
+
+    let _x = 10;
+    let mut y = 20;
+
+    y+=5;
+    println!("{y}");
+
+    const MAX_CON: u32 = 100;
     // signed and unsigned integers
     // signed can be + or - (i8, i16, i32 i64, i128)
-    // unsi   gned can only be + (u8, u16, u32, u64, u128)
+    // unsigned can only be + (u8, u16, u32, u64, u128)
     let x: i32 = -42;
     let y: u64 = 100;
     println!("Signed Integer: {}", x);
